@@ -1,4 +1,5 @@
-## Tia Crawler
+Tia Crawler ![Version](https://img.shields.io/badge/version-0.0.2-orange.svg)
+----
 Gem para acessar os dados do TIA Mackenzista
 
 ## Como instalar

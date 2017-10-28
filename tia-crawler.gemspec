@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'tia-crawler'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.executables << 'tia-crawler'
   s.date        = '2017-08-14'
   s.summary     = "Tia Crawler"
