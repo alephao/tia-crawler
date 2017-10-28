@@ -4,6 +4,7 @@ require 'uri'
 require 'nokogiri'
 
 require_relative '../models/tia-url'
+require_relative '../models/subject'
 require_relative '../models/timetable'
 require_relative 'networking'
 
@@ -114,8 +115,9 @@ module TiaCrawler
 
             if name != "--"
               dia = dias[j]
-              theSubjects[name] = Timetable.new if theSubjects[name].nil?
-              theSubjects[name].append dia, cols[0].inner_html
+
+              theSubjects[name] = Subject.new name if theSubjects[name].nil?
+              theSubjects[name].timetable.append dia, cols[0].inner_html
             end
           end
         end
