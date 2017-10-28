@@ -14,8 +14,8 @@ tia-crawler horarios
 
 ## Exemplo de Resposta
 ```
-{
-   "MAQUINAS ELETRICAS":{
+[
+   {
       "name": "MAQUINAS ELETRICAS",
       "timetable": {
           "seg":[
@@ -34,7 +34,7 @@ tia-crawler horarios
           "sab":[ ]
       }
    },
-   "MICROPROCESSADORES II":{
+   {
       "name": "MICROPROCESSADORES II",
       "timetable": {
           "seg":[
@@ -50,7 +50,7 @@ tia-crawler horarios
       }
 
    },
-   "CIRCUITOS ELETROMAGNETICOS II":{
+   {
       "name": "CIRCUITOS ELETROMAGNETICOS II",
       "timetable": {
           "seg":[
@@ -69,5 +69,5 @@ tia-crawler horarios
           "sab":[ ]
       }
    }
-}
+]
 ```

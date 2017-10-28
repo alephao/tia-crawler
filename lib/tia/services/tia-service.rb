@@ -123,9 +123,9 @@ module TiaCrawler
         end
       end
 
-      json = {}
+      json = []
       theSubjects.each do |key, val|
-        json[key] = val.as_json
+        json << val.as_json
       end
 
       return json
